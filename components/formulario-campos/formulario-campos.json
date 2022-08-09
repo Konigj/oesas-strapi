@@ -2,7 +2,8 @@
   "collectionName": "components_formulario_campos_formulario_campos",
   "info": {
     "name": "formulario_campos",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -30,7 +31,7 @@
     },
     "texto_indicativo": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "max_caracteres": {
       "type": "integer",
@@ -40,6 +41,7 @@
       "type": "enumeration",
       "enum": [
         "texto",
+        "email",
         "tel",
         "numero",
         "seleccion",

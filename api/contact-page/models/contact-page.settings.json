@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "name": "contactPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "tarjeta_contacto_titulo": {
+      "type": "string"
+    },
+    "tarjeta_contacto_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-and-text.beneficios",
+      "required": true
+    }
+  }
+}
