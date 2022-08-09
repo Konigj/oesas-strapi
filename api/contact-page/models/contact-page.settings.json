@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contact_pages",
   "info": {
-    "name": "contactPage"
+    "name": "contactPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -21,6 +22,28 @@
       "type": "component",
       "repeatable": true,
       "component": "icon-and-text.beneficios",
+      "required": true
+    },
+    "formulario_contacto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formulario-campos.formulario-campos"
+    },
+    "formulario_titulo": {
+      "type": "string",
+      "required": true
+    },
+    "formulario_subtitulo": {
+      "type": "string",
+      "required": false
+    },
+    "formulario_asunto": {
+      "type": "string",
+      "required": true
+    },
+    "formulario_captcha": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
