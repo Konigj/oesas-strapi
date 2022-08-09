@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_icon_and_text_beneficios",
+  "info": {
+    "name": "beneficios",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "beneficio_texto": {
+      "type": "string",
+      "required": true
+    },
+    "beneficio_icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

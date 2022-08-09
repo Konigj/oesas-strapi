@@ -26,6 +26,12 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "short-and-long-text.faq",
+      "required": true
     }
   }
 }

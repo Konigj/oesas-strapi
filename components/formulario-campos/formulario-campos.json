@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_formulario_campos_formulario_campos",
+  "info": {
+    "name": "formulario_campos",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "formulario_opciones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "doble-text.formulario-opciones"
+    },
+    "min_caracteres": {
+      "type": "integer"
+    },
+    "formatos_archivo": {
+      "type": "text"
+    },
+    "columnas": {
+      "type": "integer"
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "requerido": {
+      "type": "boolean",
+      "required": true
+    },
+    "texto_indicativo": {
+      "type": "string",
+      "required": true
+    },
+    "max_caracteres": {
+      "type": "integer",
+      "required": false
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "texto",
+        "tel",
+        "numero",
+        "seleccion",
+        "area_texto",
+        "archivo"
+      ],
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "filas": {
+      "type": "integer"
+    }
+  }
+}

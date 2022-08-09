@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ofertas",
+      "handler": "ofertas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ofertas/count",
+      "handler": "ofertas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ofertas/:id",
+      "handler": "ofertas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ofertas",
+      "handler": "ofertas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ofertas/:id",
+      "handler": "ofertas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ofertas/:id",
+      "handler": "ofertas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

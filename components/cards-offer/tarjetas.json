@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_cards_offer_tarjetas",
+  "info": {
+    "name": "tarjetas",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "tarjeta_titulo": {
+      "type": "string",
+      "required": true
+    },
+    "tarjeta_icono": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "tarjeta_textos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "doble-text.tarjeta-textos"
+    }
+  }
+}

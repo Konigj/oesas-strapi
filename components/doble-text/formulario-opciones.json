@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_doble_text_formulario_opciones",
+  "info": {
+    "name": "formulario_opciones",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "opcion_nombre": {
+      "type": "string",
+      "required": true
+    },
+    "opcion_texto": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

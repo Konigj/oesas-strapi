@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_short_and_long_text_faqs",
+  "info": {
+    "name": "FAQ",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "pregunta": {
+      "type": "string",
+      "required": true
+    },
+    "respuesta": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

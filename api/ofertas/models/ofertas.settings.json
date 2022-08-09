@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ofertas",
+  "info": {
+    "name": "ofertas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "tipo_de_trabajo": {
+      "type": "string",
+      "required": true
+    },
+    "imagen_principal": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "beneficios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-and-text.beneficios"
+    },
+    "tarjetas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards-offer.tarjetas"
+    },
+    "formulario_titulo": {
+      "type": "string",
+      "required": true
+    },
+    "formulario_subtitulo": {
+      "type": "text",
+      "required": true
+    },
+    "formulario_asunto": {
+      "type": "string",
+      "required": true
+    },
+    "formulario_captcha": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "formulario_campos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formulario-campos.formulario-campos"
+    }
+  }
+}

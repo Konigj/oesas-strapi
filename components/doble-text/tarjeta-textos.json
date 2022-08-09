@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_doble_text_tarjeta_textos",
+  "info": {
+    "name": "tarjeta_textos",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
