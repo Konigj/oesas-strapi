@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_icon_and_text_beneficios_homes",
+  "info": {
+    "name": "beneficios_home",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "beneficio_titulo": {
+      "type": "string",
+      "required": true
+    },
+    "beneficio_descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "beneficio_imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

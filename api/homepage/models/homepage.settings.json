@@ -33,11 +33,6 @@
       "component": "short-and-long-text.faq",
       "required": true
     },
-    "beneficios_home": {
-      "type": "component",
-      "repeatable": true,
-      "component": "icon-and-text.beneficios"
-    },
     "beneficios_titulo": {
       "type": "string",
       "required": true
@@ -45,6 +40,11 @@
     "beneficios_subtitulo": {
       "type": "string",
       "required": true
+    },
+    "beneficios_home": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-and-text.beneficios-home"
     }
   }
 }
